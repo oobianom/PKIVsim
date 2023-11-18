@@ -1,28 +1,9 @@
-## pk1cima: pk1cima: PK Sim of 1 Comp, IV Bolus
+![](https://shiny-app-store3.s3.amazonaws.com/approvedapp/s256_luWUpAqPiKcDtWiGiEJgPLWGM1eO4PQs1XKAplqt_logo_278.jpg)
 
-- `pk1cima` <https://asan.shinyapps.io/pk1c>
-- `pk1cima` is open to everyone. We are happy to take your input. Please fork the repo, modify the codes and submit a pull request. <https://github.com/asancpt/pk1c>
-- We are actively developing R pacakges, Shiny Apps, and Edison Science Apps regarding clinical pharmacology and pharmacometrics. Please check here. <https://asancpt.github.io/softwares>
 
-### Installation of NonCompart R Package
 
-```r
-install.packages("NonCompart")
-library(NonCompart)
-tabNCA(Theoph, dose=320, concUnit="mg/L")
-```
+# PKIVsim: Master One-compartment Pharmacokinetics Simulations
 
-### Help
+#### Use app online: __[www.shinyappstore.com/a/PKIVsim](https://shinyappstore.com/a/PKIVsim)__
 
-- `NonCompart` package help <https://cran.r-project.org/web/packages/NonCompart/NonCompart.pdf>
-- `ncar` package help <https://cran.r-project.org/web/packages/ncar/ncar.pdf>
-
-### References
-
-Gabrielsson J, Weiner D. Pharmacokinetic and Pharmacodynamic Data Analysis - Concepts and Applications. 5th ed. 2016.
-
-Shargel L, Yu A. Applied Biopharmaceutics and Pharmacokinetics. 7th ed. 2015.
-
-Rowland M, Tozer TN. Clinical Pharmacokinetics and Pharmacodynamics - Concepts and Applications. 4th ed. 2011.
-
-Gibaldi M, Perrier D. Pharmacokinetics. 2nd ed. revised and expanded. 1982.
+PKIVsim stands as a robust application designed for simulating diverse pharmacokinetic profiles. PK refers to the study of how the body absorbs, distributes, metabolizes, and excretes a drug. E.g. if analyzing a drug's pharmacokinetics, it would involve understanding how the body processes and eliminates the substance over time. A pharmacokinetic concentration profile graph visually represents the concentration of a substance in the body over a specified period. It illustrates how the substance's concentration changes in blood or plasma, providing insights into its behavior within the body. PKIVsim empowers users to observe the impact of altering pharmacokinetic parameters on the time profile. PKIVsim facilitates non-compartmental analysis based on the pharmacokinetic profile. PKIVsim exclusively provides a built-in dataset, it does not currently support user-uploaded datasets. PKIVsim offers a powerful tool for understanding and visualizing the dynamic aspects of pharmacokinetics.
